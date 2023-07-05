@@ -1,6 +1,6 @@
 {
     'name': 'Appointment Module',
-    'author'
+    'author':'oumayma',
     'depends': [
         'base'
     ],
