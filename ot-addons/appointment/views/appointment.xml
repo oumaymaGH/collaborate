@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="view_appointment_form" model="ir.ui.view">
+        <field name="name">appointment.form.view</field>
+        <field name="model">sanabel.appointment</field>
+        <field name="arch" type="xml">
+            <form>
+                <header attrs="{'invisible': [('id', '=', False)]}">
+
+                    <button name="action_button_reopen"
+                            type="object"
+                            string="Open"
+                            class="oe_highlight"
+                            attrs="{'invisible':['|',('state','=','opened'),('state','!=','rejected'),('state','!=','done')]}"
+                    />
+                    <button name="action_button_reject"
+                            type="object"
+                            string="Reject"
+                            class="oe_highlight"
+                            attrs="{'invisible':[('state','!=','opened')]}"
+                    />
+                    <button name="action_button_done"
+                            type="object"
+                            string="Done"
+                            class="oe_highlight"
+                            attrs="{'invisible':[('state','!=','opened')]}"
+                    />
+                    <field name="state" widget="statusbar"/>
+
+                </header>
+                <group>
+                    <group>
+                        <field name="type" string="Type"
+                               widget="radio"/>
+                        <field name="new_beneficiary_name"
+                               attrs="{'invisible':[('type','!=','new')]}"/>
+                        <field name="beneficiary_id"
+                               attrs="{'invisible':[('type','!=','renew')]}"/>
+                        <field name="phone_number" required="True"/>
+                    </group>
+                    <group>
+
+                        <field name="region_id"/>
+                        <field name="appointment_datetime"/>
+                        <field name="investigator_id" widget="many2one_tags" invisible="1"/>
+                    </group>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_appointment_tree" model="ir.ui.view">
+        <field name="name">appointment.tree.view</field>
+        <field name="model">sanabel.appointment</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="new_beneficiary_name"/>
+                <field name="beneficiary_id"/>
+                <field name="type"/>
+                <field name="phone_number"/>
+                <field name="region_id"/>
+                <field name="appointment_datetime"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_appointment_kanban" model="ir.ui.view">
+        <field name="name">appointment.kanban.view</field>
+        <field name="model">sanabel.appointment</field>
+        <field name="arch" type="xml">
+            <kanban class="o_kanban_mobile">
+                <field name="name"/>
+                <field name="type"/>
+                <field name="state"/>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div t-attf-class="oe_kanban_global_click">
+                            <div class="oe_kanban_details">
+                                <ul>
+                                    <li>
+                                        State:
+                                        <field name="state"/>
+                                    </li>
+                                    <li>
+                                        Name:
+                                        <field name="new_beneficiary_name"/>
+                                    </li>
+                                    <li>
+                                        Name:
+                                        <field name="beneficiary_id"/>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+    <!--        menu  action records-->
+
+    <record id="action_all_appointment" model="ir.actions.act_window">
+        <field name="name">All Appointments</field>
+        <field name="res_model">sanabel.appointment</field>
+        <field name="view_mode">tree,kanban,form,search</field>
+
+    </record>
+    <record id="action_pending_appointment" model="ir.actions.act_window">
+        <field name="name">Pending Appointments</field>
+        <field name="res_model">sanabel.appointment</field>
+        <field name="domain">[('state','=','opened')]</field>
+        <field name="view_mode">tree,kanban,form,search</field>
+    </record>
+    <record id="action_done_appointment" model="ir.actions.act_window">
+        <field name="name">Done Appointments</field>
+        <field name="res_model">sanabel.appointment</field>
+        <field name="domain">['|',('state','=','done'),('state','=','rejected')]</field>
+        <field name="view_mode">tree,kanban,form,search</field>
+    </record>
+
+    <record id="view_appointment_search" model="ir.ui.view">
+        <field name="name">sanabel.appointment.search</field>
+        <field name="model">sanabel.appointment</field>
+        <field name="arch" type="xml">
+            <search string="Tests">
+                <field name="investigator_id"/>
+                <field name="appointment_datetime"/>
+                <field name="beneficiary_id"/>
+                <field name="new_beneficiary_name"/>
+            </search>
+        </field>
+    </record>
+
+</odoo>

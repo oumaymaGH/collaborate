@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="report_employee_details_template">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="doc">
+                <t t-call="web.external_layout">
+                    <div class="page">
+                        <div class="header">
+                            <h1>Employee pdf report</h1>
+                        </div>
+                        <div class="content">
+                            <table style="border-collapse: collapse; border: none">
+                                <tr>
+                                    <td style="border: none; padding: 8px;">
+                                        <p>
+                                            <strong>First Name :</strong>
+                                            <span t-field="doc.name"/>
+                                            <br/>
+                                        </p>
+
+
+                                        <p>
+                                            <strong>Last Name :</strong>
+                                            <span t-field="doc.last_name"/>
+                                            <br/>
+                                        </p>
+
+
+                                        <p>
+                                            <strong>Currency :</strong>
+                                            <span t-field="doc.currency_id.name"/>
+                                            <br/>
+                                        </p>
+
+
+                                        <p>
+                                            <strong>Age :</strong>
+                                            <span t-field="doc.age"/>
+                                            <br/>
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p>
+                                            <strong>Salary :</strong>
+                                            <span t-field="doc.salary"/>
+                                            <br/>
+                                        </p>
+                                    </td>
+
+                                    <td style="border: none; padding: 8px;">
+
+                                          <p>
+                                            <strong>Address :</strong>
+                                            <span t-field="doc.address"/>
+                                            <br/>
+                                        </p>
+                                           <p>
+                                            <strong>Region :</strong>
+                                            <span t-field="doc.region_id.name"/>
+                                            <br/>
+                                        </p>
+                                           <p>
+                                            <strong>Nationality :</strong>
+                                            <span t-field="doc.nationality"/>
+                                            <br/>
+                                        </p>
+                                           <p>
+                                            <strong>Type of work :</strong>
+                                            <span t-field="doc.type_of_work"/>
+                                            <br/>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Investigator</th>
+                                        <th>Phone number</th>
+                                        <th>Appointment Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <t t-set="appointments" t-value="doc.mapped('appointment_ids')"/>
+                                    <t t-foreach="appointments" t-as="appointment">
+                                        <tr>
+                                            <td>
+                                                <span t-field="appointment.new_beneficiary_name"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="appointment.employee_id"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="appointment.phone_number"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="appointment.appointment_datetime"/>
+                                            </td>
+                                        </tr>
+                                    </t>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>

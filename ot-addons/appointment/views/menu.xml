@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <menuitem id="menu_root_appointment"
+              name="Appointments"
+              sequence="10"/>
+
+    <menuitem id="menu_all_appointment"
+              name="All Appointment"
+              parent="menu_root_appointment"
+              action="action_all_appointment"
+              sequence="10"/>
+
+    <menuitem id="menu_pending_appointment"
+              name="Pending Appointment"
+              parent="menu_root_appointment"
+              action="action_pending_appointment"
+              sequence="10"/>
+
+    <menuitem id="menu_done_appointment"
+              name="Done/Rejected Appointment"
+              parent="menu_root_appointment"
+              action="action_done_appointment"
+              sequence="10"/>
+
+    <menuitem id="menu_appointment_beneficiaries"
+              name="Beneficiaries"
+              parent="menu_root_appointment"
+              action="action_appointment_beneficiaries"
+              sequence="10"/>
+
+    <menuitem id="menu_appointment_regions"
+              name="Regions"
+              parent="menu_root_appointment"
+              action="action_appointment_regions"
+              sequence="10"/>
+
+
+</odoo>

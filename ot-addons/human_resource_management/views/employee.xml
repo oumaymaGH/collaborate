@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="view_employee_form" model="ir.ui.view">
+        <field name="name">employee.form.view</field>
+        <field name="model">employee.management</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <h1>Employee Details</h1>
+                </header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="last_name"/>
+                            <field name="age"/>
+                            <field name="currency_id"/>
+                            <field name="salary"/>
+
+                        </group>
+                        <group>
+                            <field name="address"/>
+                            <field name="region_id"/>
+                            <field name="nationality"/>
+                            <field name="type_of_work"/>
+                            <field name="manager"/>
+                        </group>
+
+                        <group>
+                            <field name="appointment_ids">
+                                <tree>
+                                    <field name="beneficiary_id"/>
+                                    <field name="new_beneficiary_name"/>
+                                    <field name="appointment_datetime"/>
+                                    <field name="state"/>
+                                </tree>
+                            </field>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_employee_tree" model="ir.ui.view">
+        <field name="name">employee.tree.view</field>
+        <field name="model">employee.management</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="last_name"/>
+                <field name="age"/>
+                <field name="salary"/>
+            </tree>
+        </field>
+    </record>
+
+
+    <record id="action_view_employee" model="ir.actions.act_window">
+        <field name="name">Employee Management</field>
+        <field name="res_model">employee.management</field>
+        <field name="view_mode">tree,form,search</field>
+    </record>
+
+</odoo>

@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+appointment.access_sanabel_appointment,access_sanabel_appointment,appointment.model_sanabel_appointment,,1,1,1,1
+appointment.access_sanabel_beneficiary,access_sanabel_beneficiary,appointment.model_sanabel_beneficiary,,1,1,1,1
+appointment.access_sanabel_region,access_sanabel_region,appointment.model_sanabel_region,,1,1,1,1
+appointment.access_sanabel_investigator,access_sanabel_investigator,appointment.model_sanabel_investigator,,1,1,1,1

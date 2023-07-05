@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+<!--    for excel -->
+    <report id="report_employee_xlsx"
+            string="Employee Report xlsx"
+            model="employee.management"
+            report_type="xlsx"
+            name="human_resource_management.report_xlsx_employee"
+            file="human_resource_management.report_xlsx_employee"
+            />
+<!--    for pdf-->
+    <report id="report_employee_details"
+            string="Print Employee Details"
+            model="employee.management"
+            report_type="qweb-pdf"
+            name="human_resource_management.report_employee_details_template"
+            file="human_resource_management.report_employee_details_template"
+            />
+
+</odoo>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <report id="report_appointment"
+            string="Appointment Card"
+            model="sanabel.appointment"
+            report_type="qweb-pdf"
+            name="appointment.repport_appointment"
+            file="appointment.repport_appointment"
+    />
+</odoo>

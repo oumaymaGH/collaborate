@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <menuitem id="menu_root_hr_management"
+              name="HR Management"
+              sequence="10"/>
+
+    <menuitem id="menu_employee"
+              name="Employee Management"
+              parent="menu_root_hr_management"
+              action="action_view_employee"
+              sequence="10"/>
+
+</odoo>
