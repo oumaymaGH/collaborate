@@ -1,5 +1,6 @@
 {
     'name': 'H-Resource Management',
+    'author':'I am Amina',
     'depends': [
         'base', 'appointment','report_xlsx'
     ],
