@@ -9,4 +9,5 @@ class MarketProducts(models.Model):
     message=fields.Text(string="Message")
     def function_test(self):
         if self.state=='buy':
-            print("You will buy this product")
+            self.name="Amina"
+            print(self.name)
