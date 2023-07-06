@@ -2,7 +2,7 @@
 <odoo>
     <record id="view_beneficiary_form" model="ir.ui.view">
         <field name="name">appointment.beneficiary.form</field>
-        <field name="model">sanabel.beneficiary</field>
+        <field name="model">appointment.beneficiary</field>
         <field name="arch" type="xml">
             <form>
                 <group>
@@ -20,7 +20,7 @@
 
     <record id="view_beneficiary_view" model="ir.ui.view">
         <field name="name">appointment.beneficiary.view</field>
-        <field name="model">sanabel.beneficiary</field>
+        <field name="model">appointment.beneficiary</field>
         <field name="arch" type="xml">
             <tree>
                 <field name="name"/>
@@ -34,7 +34,7 @@
 
     <record id="action_appointment_beneficiaries" model="ir.actions.act_window">
         <field name="name">Beneficiaries</field>
-        <field name="res_model">sanabel.beneficiary</field>
+        <field name="res_model">appointment.beneficiary</field>
         <field name="view_mode">tree,form</field>
     </record>
 

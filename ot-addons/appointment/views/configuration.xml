@@ -2,7 +2,7 @@
 <odoo>
     <record id="view_region_form" model="ir.ui.view">
         <field name="name">appointment.region.form</field>
-        <field name="model">sanabel.region</field>
+        <field name="model">appointment.region</field>
         <field name="arch" type="xml">
             <form>
                 <group>
@@ -14,7 +14,7 @@
 
     <record id="view_region_view" model="ir.ui.view">
         <field name="name">appointment.region.view</field>
-        <field name="model">sanabel.region</field>
+        <field name="model">appointment.region</field>
         <field name="arch" type="xml">
             <tree>
                 <field name="name"/>
@@ -24,7 +24,7 @@
 
     <record id="action_appointment_regions" model="ir.actions.act_window">
         <field name="name">Regions</field>
-        <field name="res_model">sanabel.region</field>
+        <field name="res_model">appointment.region</field>
         <field name="view_mode">tree,form</field>
     </record>
 
