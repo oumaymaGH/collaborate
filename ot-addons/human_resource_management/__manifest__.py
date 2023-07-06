@@ -1,8 +1,7 @@
 {
     'name': 'H-Resource Management',
-    'author':'I am Oumayma',
     'depends': [
-        'base', 'appointment', 'report_xlsx'
+        'base', 'appointment','report_xlsx'
     ],
     'data': [
         'security/ir.model.access.csv',
