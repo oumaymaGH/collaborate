@@ -1,7 +1,8 @@
 {
     'name': 'H-Resource Management',
+    'author': 'Author',
     'depends': [
-        'base', 'appointment','report_xlsx'
+        'base', 'appointment', 'report_xlsx'
     ],
     'data': [
         'security/ir.model.access.csv',

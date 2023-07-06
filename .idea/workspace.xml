@@ -4,57 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85847990-e95a-4d4c-a06d-37d0f3d7b104" name="Changes" comment="Oumayma  Commit" />
+    <list default="true" id="dc075fb6-c8e1-44b5-86f2-8c12cbc617da" name="Changes" comment="Amina author add commit">
+      <change beforePath="$PROJECT_DIR$/ot-addons/human_resource_management/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ot-addons/human_resource_management/__manifest__.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="GH-Test" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2SBa9EVdgSv3wxMguQVcfVXK2iV" />
+  <component name="ProjectId" id="2SBb7ncKr4cJCnizmzF4jl4DZv8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "GH-Test",
-    "last_opened_file_path": "D:/Odoo/odoo-16.0/collaborate-branch",
-    "run.code.analysis.last.selected.profile": "aDefault"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Odoo/Odoo-16.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Odoo\odoo-16.0\collaborate-branch" />
-    </key>
-  </component>
+}</component>
   <component name="RunManager">
-    <configuration name="odoo" type="PythonConfigurationType" factoryName="Python">
-      <module name="hello-word" />
+    <configuration name="Odoo" type="PythonConfigurationType" factoryName="Python">
+      <module name="collaborate" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\Odoo\odoo-16.0\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.7 (odoo-16.0) (2)" />
+      <option name="SDK_HOME" value="D:\Odoo\Odoo-16.0\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.7 (Odoo-16.0)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../odoo-bin" />
-      <option name="PARAMETERS" value="-c D:\Odoo\odoo-16.0\debian\odoo.conf" />
+      <option name="PARAMETERS" value="-c D:\Odoo\Odoo-16.0\debian\odoo.conf" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -66,32 +76,48 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="85847990-e95a-4d4c-a06d-37d0f3d7b104" name="Changes" comment="" />
-      <created>1688622274694</created>
+      <changelist id="dc075fb6-c8e1-44b5-86f2-8c12cbc617da" name="Changes" comment="" />
+      <created>1688622757159</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1688622274694</updated>
+      <updated>1688622757159</updated>
     </task>
-    <task id="LOCAL-00001" summary="Oumayma Second Commit">
-      <created>1688623694032</created>
+    <task id="LOCAL-00001" summary="Amina first commit">
+      <created>1688622916210</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1688623694032</updated>
+      <updated>1688622916210</updated>
     </task>
-    <task id="LOCAL-00002" summary="Oumayma  Commit">
-      <created>1688628748572</created>
+    <task id="LOCAL-00002" summary="Amina second commit">
+      <created>1688623618009</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1688628748572</updated>
+      <updated>1688623618009</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Amina manifest commit">
+      <created>1688628548307</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688628548308</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Amina author add commit">
+      <created>1688628852556</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688628852556</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Oumayma Second Commit" />
-    <MESSAGE value="Oumayma  Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oumayma  Commit" />
+    <MESSAGE value="Amina first commit" />
+    <MESSAGE value="Amina second commit" />
+    <MESSAGE value="Amina manifest commit" />
+    <MESSAGE value="Amina author add commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Amina author add commit" />
   </component>
 </project>
