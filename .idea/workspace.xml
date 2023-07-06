@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc075fb6-c8e1-44b5-86f2-8c12cbc617da" name="Changes" comment="new module named : market is added">
-      <change beforePath="$PROJECT_DIR$/.idea/collaborate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/collaborate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dc075fb6-c8e1-44b5-86f2-8c12cbc617da" name="Changes" comment="change in function_test is state is buy">
+      <change beforePath="$PROJECT_DIR$/ot-addons/market/models/market_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/ot-addons/market/models/market_products.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688632704374</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new module named : market is added">
+      <created>1688633103594</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688633103594</updated>
+    </task>
+    <task id="LOCAL-00007" summary="change in function_test is state is buy">
+      <created>1688633169817</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688633169817</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -135,6 +147,7 @@
     <MESSAGE value="Amina manifest commit" />
     <MESSAGE value="Amina author add commit" />
     <MESSAGE value="new module named : market is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="new module named : market is added" />
+    <MESSAGE value="change in function_test is state is buy" />
+    <option name="LAST_COMMIT_MESSAGE" value="change in function_test is state is buy" />
   </component>
 </project>
