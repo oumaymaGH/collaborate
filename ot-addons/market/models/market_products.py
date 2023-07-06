@@ -8,6 +8,7 @@ class MarketProducts(models.Model):
 
     message=fields.Text(string="Message")
     def function_test(self):
-        if self.state=='buy':
-            self.name="Amina"
-            print(self.name)
+        for rec in self :
+         if rec.state=='buy':
+            rec.name="Amina"
+            print(rec.name)
