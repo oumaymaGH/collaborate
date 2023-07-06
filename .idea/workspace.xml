@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc075fb6-c8e1-44b5-86f2-8c12cbc617da" name="Changes" comment="Amina author add commit">
-      <change beforePath="$PROJECT_DIR$/ot-addons/human_resource_management/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ot-addons/human_resource_management/__manifest__.py" afterDir="false" />
+    <list default="true" id="dc075fb6-c8e1-44b5-86f2-8c12cbc617da" name="Changes" comment="new module named : market is added">
+      <change beforePath="$PROJECT_DIR$/.idea/collaborate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/collaborate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <favorite-branches>
@@ -41,14 +50,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Odoo/Odoo-16.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "GH-Test",
+    "last_opened_file_path": "D:/Odoo/Odoo-16.0",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Odoo" type="PythonConfigurationType" factoryName="Python">
       <module name="collaborate" />
@@ -58,7 +68,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\Odoo\Odoo-16.0\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.7 (Odoo-16.0)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -110,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688628852556</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new module named : market is added">
+      <created>1688632704374</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688632704374</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -118,6 +134,7 @@
     <MESSAGE value="Amina second commit" />
     <MESSAGE value="Amina manifest commit" />
     <MESSAGE value="Amina author add commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Amina author add commit" />
+    <MESSAGE value="new module named : market is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new module named : market is added" />
   </component>
 </project>
