@@ -6,7 +6,6 @@ class Appointment(models.Model):
     _name = "sanabel.appointment"
     name = fields.Char(string="Appointment Record")
     type = fields.Selection([('new', 'New'), ('renew', 'Renew')], default='new')
-    # phone_number = fields.Char(string="Phone", compute='_compute_phone_number')
     phone_number = fields.Char(string="Phone")
     appointment_datetime = fields.Datetime(string="Appointment Time")
     beneficiary_id = fields.Many2one('sanabel.beneficiary', "Old Beneficiary Name")
