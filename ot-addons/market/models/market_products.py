@@ -10,4 +10,6 @@ class MarketProducts(models.Model):
     def function_test(self):
          if self.state=='buy':
             self.name="Amina"
-            print(self.name)
+         elif self.state=='sell':
+             self.name="Oumayma"
+         print(self.name)
